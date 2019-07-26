@@ -135,3 +135,4 @@ all_players.each do |player|
   return player[:shoe_size] if player[:player_name] == player_name
 end 
 end
+shoe_size
