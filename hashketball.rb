@@ -218,7 +218,8 @@ def player_numbers(team_name)
     name = nil 
     points_data = [] 
     most_points = nil 
-    game_hash.collect do |location, data|
+    game_hash.each do |location, team_data|
+      team_data[:players].each do |attribute, data|
       points_data.push(data[:points])
       most_points = points_data.sort(-1)
     end 
@@ -230,7 +231,7 @@ def player_numbers(team_name)
    end 
  end 
  end 
-
+end 
     
     
     
