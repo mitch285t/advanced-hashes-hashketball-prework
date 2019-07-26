@@ -127,4 +127,11 @@ all_players = game_hash.values.collect do |team|
   end
 end
 
-
+def shoe_size(:player_name)
+  all_players = game_hash.values.collect do |team|
+    team[:players]
+  end.flatten
+all_players.each do |player|
+  return player[:shoe_size] if player[:player_name] == player_name
+end 
+end
