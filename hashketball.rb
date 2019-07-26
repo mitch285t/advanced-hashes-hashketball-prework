@@ -172,6 +172,7 @@ def player_numbers(team_name)
        if attribute == :players
         value.each do |name, stats|
           array.push(game_hash[location][attribute][name][:number])
+        end 
        end 
      end 
    end 
