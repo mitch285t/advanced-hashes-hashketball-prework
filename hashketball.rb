@@ -225,7 +225,7 @@ def player_numbers(team_name)
   end 
   game_hash.collect do |location, team_data|
     name = team_data[:players].each do |name, stats|
-      if 
+      if stats[]
     
     
     
