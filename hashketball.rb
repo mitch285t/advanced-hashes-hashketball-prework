@@ -215,7 +215,8 @@ def player_numbers(team_name)
   end 
     
   def most_points_scored 
-    player = nil 
+    name = nil 
+    
     
     
     
