@@ -119,11 +119,4 @@ def game_hash
 end
 
 def num_points_scored(player_name)
-all_players = game_hash.values.collect do |team|
-    team[:players]
-  :players.flatten
-  all_players.each do |player|
-  return player[:points] if player[:player_name] == player_name
-  end
-end
-end
+  game_hash
