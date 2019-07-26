@@ -179,7 +179,7 @@ def player_numbers(team_name)
  end 
  return number_array
  end 
-        
+hash = {}        
  def player_stats(player_name)
    game_hash.each do |location, team_data|
      team_data.each do |attribute, data|
