@@ -141,4 +141,6 @@ def team_colors(team)
     team_data.each do |attribute, value| 
       
       if attribute == [:colors]
+        
+        return value 
 
