@@ -156,7 +156,10 @@ def team_colors(name)
         team_data.each do |attribute, value|
           if attribute == :team_name
             team_array << value
-      
+end 
+end 
+end 
+return team_array
       
     end 
     
