@@ -124,6 +124,9 @@ game_hash.each do |team, team_data|
   team_date[players].each do |player|
     if player[player_name:] == player_name 
       return player[points:]
+    end 
+  end 
+end 
 
 
 end
