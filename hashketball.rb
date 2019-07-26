@@ -134,3 +134,18 @@ end
 end 
 end 
 
+def team_colors(name)
+    game_hash.each do |location, team_data|
+        if game_hash[location].values.include?(name)
+            #if the values of either the :home or :away include? the team name we are looking for...
+            team_data.each do |attribute, value|
+                #... then we iterate through those values (team_name, colors, players) ...
+                if attribute == :colors
+                    # ... and when we select the right attribute colors...
+                    return value
+                    # ... we return its value which is the array of colors.
+                    end
+                end
+            end
+        end
+    end
