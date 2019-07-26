@@ -138,5 +138,5 @@ def team_colors(team)
   game_hash.each do |location, team_data|
   if game_hash.values.include?[team]
     
-    team_data.each do 
+    team_data.each do |attribute
 
