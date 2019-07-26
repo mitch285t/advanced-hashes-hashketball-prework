@@ -223,7 +223,8 @@ def player_numbers(team_name)
       most_points = points_data.sort(-1)
     end 
   end 
-  
+  game_hash.collect do |location, data|
+    
     
     
     
