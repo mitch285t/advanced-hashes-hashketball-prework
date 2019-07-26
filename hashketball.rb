@@ -129,4 +129,7 @@ def shoe_size(player)
     team_data.each do |attribute, data|
       if data.include?(player)
         return game_hash[location][attribute][player][:shoe]
-
+end 
+end 
+end 
+end 
