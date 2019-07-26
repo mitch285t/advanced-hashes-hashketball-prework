@@ -279,6 +279,11 @@ def winning_team
         team_data.each do |name, stats|
           if name == list_names.max_by(&:length) && most_steals.max
             return true 
+          end 
+        end 
+      end 
+    end 
+    
       
     end
     
