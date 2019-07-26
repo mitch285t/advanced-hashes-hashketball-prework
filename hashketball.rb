@@ -276,7 +276,8 @@ def winning_team
         end 
       end 
       game_hash.each do |location, team_data|
-        team_data.each do |name, stats
+        team_data.each do |name, stats|
+          if name == 
       
     end
     
