@@ -266,7 +266,7 @@ def winning_team
       list.max_by(&:length)
     end 
       
-    end 
+    
     
     
     
