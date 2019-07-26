@@ -170,7 +170,7 @@ def player_numbers(team_name)
    if game_hash[location].values.include?(team_name)
      team_data.each do |attribute, value|
        if attribute == :players
-         number_array << value 
+        value.each do 
        end 
      end 
    end 
