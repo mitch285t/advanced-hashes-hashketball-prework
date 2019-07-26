@@ -127,7 +127,7 @@ def num_points_scored(player_name)
   all_players.flatten
   
   all_players.each do |player|
-  return 
+  return player[points:] if player_name
   
 end
 
