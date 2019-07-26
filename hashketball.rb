@@ -167,7 +167,8 @@ return team_array
 def player_numbers(team_name)
     number_array = []
  game_hash.each do |location, team_data|
-   if game_hash[location].values.include?
+   if game_hash[location].values.include?(team_name)
+     
         
     
     
