@@ -249,7 +249,7 @@ def winning_team
         away_team.push(data[:points])
       end 
     end 
-    
+    if home_team
     
     
     
