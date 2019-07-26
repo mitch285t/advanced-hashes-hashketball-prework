@@ -221,10 +221,7 @@ def player_numbers(team_name)
     game_hash.collect do |location, data|
       points_data.push(data[:points])
       most_points = points_data.sort(-1)
-      data.collect do |category, stat|
-        if category == :points 
-          if stat == most_points
-            return name 
+    
     
     
     
