@@ -236,7 +236,7 @@ def most_points_scored
 end 
 
 
-def winning_team
+def Winningteam
     home_team = [] 
     away_team = []
     game_hash.each do |location, team_data|
