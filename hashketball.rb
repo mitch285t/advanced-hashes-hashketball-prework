@@ -135,3 +135,11 @@ all_players.each do |player|
   return player[:shoe_size] if player[:player_name] == player_name
 end 
 end
+
+def team_colors(team_name)
+  game_hash.each do |team_name|
+    team_name.flatten
+end
+end
+
+
