@@ -139,4 +139,6 @@ def team_colors(team)
   if game_hash.values.include?[team]
     
     team_data.each do |attribute, value| 
+      
+      if attribute == [:colors]
 
