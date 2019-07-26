@@ -237,6 +237,8 @@ end
 
 
 def winning_team
+    home_team = [] 
+    away_team = []
     
     
     
