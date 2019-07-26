@@ -200,7 +200,7 @@ def player_numbers(team_name)
     
     game_hash.collect do |location, team_data|
       team_data[:players].collect do |attribute, data|
-        shoe_data.push
+        shoe_data.push(data{shoe})
     
     
     
