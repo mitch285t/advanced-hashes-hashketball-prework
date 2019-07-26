@@ -269,7 +269,8 @@ def winning_team
     def long_name_steals_a_ton? 
       list_names = [] 
       most_steals = [] 
-      
+      game_hash.each do |location, team_data|
+        
       
     end
     
