@@ -143,4 +143,9 @@ def team_colors(team)
       if attribute == [:colors]
         
         return value 
+      end 
+    end 
+  end 
+end 
+end 
 
