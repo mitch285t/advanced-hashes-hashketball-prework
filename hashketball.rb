@@ -121,25 +121,9 @@ end
 def num_points_scored(player_name)
 all_players = game_hash.values.collect do |team|
     team[:players]
-  end.flatten
+  :players.flatten
   all_players.each do |player|
   return player[:points] if player[:player_name] == player_name
   end
 end
-
-def shoe_size(player_name)
-  all_players = game_hash.values.collect do |team|
-    team[:players]
-  end.flatten
-all_players.each do |player|
-  return player[:shoe_size] if player[:player_name] == player_name
-end 
-end
-
-def team_colors(team_name)
-  game_hash.each do |team_name|
-    team_name.flatten
-end
-end
-
 
