@@ -126,4 +126,4 @@ all_players = game_hash.values.collect do |team|
   return player[:points] if player[:player_name] == player_name
   end
 end
-
+end
