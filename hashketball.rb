@@ -271,7 +271,8 @@ def winning_team
       most_steals = [] 
       game_hash.each do |location, team_data|
         team_data[:players].each do |name, stats|
-          list_names.push
+          list_names.push(name)
+          
       
     end
     
