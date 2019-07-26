@@ -180,7 +180,13 @@ def player_numbers(team_name)
  return number_array
  end 
         
-    
+ def player_stats(player_name)
+   game_hash.each do |location, team_data|
+     
+   
+   
+   
+ end
     
     
     
