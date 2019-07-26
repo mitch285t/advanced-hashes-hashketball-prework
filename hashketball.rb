@@ -216,6 +216,8 @@ def player_numbers(team_name)
     
   def most_points_scored 
     name = nil 
+    points_data = [] 
+    most_points = nil 
     
     
     
