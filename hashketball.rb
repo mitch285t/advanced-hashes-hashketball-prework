@@ -122,7 +122,7 @@ def num_points_scored(player_name)
 
 
   
-  all_players = game_hash.collect do |team|
+  all_players = game_hash.values.collect do |team|
     
   
   
