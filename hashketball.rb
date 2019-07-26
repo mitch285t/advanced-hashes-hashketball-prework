@@ -260,7 +260,7 @@ def winning_team
       list = [] 
       game_hash.each do |location, team_data|
         team_data[:players].each do |name, stats|
-          
+          list.push(name)
       
     end 
     
