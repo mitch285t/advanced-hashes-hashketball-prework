@@ -201,7 +201,7 @@ def player_numbers(team_name)
     game_hash.collect do |location, team_data|
       team_data[:players].collect do |attribute, data|
         shoe_data.push(data[shoe])
-        shoe_data.sort
+        biggest_shoe = shoe_data.sort(-1)
     
     
     
