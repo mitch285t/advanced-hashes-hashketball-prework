@@ -266,7 +266,10 @@ def winning_team
       list.max_by(&:length)
     end 
       
-    
+    def long_name_steals_a_ton? 
+      
+      
+    end
     
     
     
