@@ -195,6 +195,7 @@ def player_numbers(team_name)
    
    def big_shoe_rebounds
     player_rebound = nil 
+    shoe_data = []
     
     
     
