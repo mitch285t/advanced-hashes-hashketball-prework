@@ -199,7 +199,7 @@ def player_numbers(team_name)
     biggest_shoe = nil
     
     game_hash.collect do |location, team_data|
-      team_data[:players]
+      team_data[:players].collect do |attribute, data| 
     
     
     
