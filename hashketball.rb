@@ -134,9 +134,9 @@ end
 end 
 end 
 
-def team_colors(team)
+def team_colors(name)
   game_hash.each do |location, team_data|
-  if game_hash.values.include?[team]
+  if game_hash.values.include?[name]
     
     team_data.each do |attribute, value| 
       
