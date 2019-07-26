@@ -202,7 +202,8 @@ def player_numbers(team_name)
       team_data[:players].collect do |attribute, data|
         shoe_data.push(data[shoe])
         biggest_shoe = shoe_data.sort[-1]
-        data.collect
+        data.collect do |category, stat|
+          
     
     
     
