@@ -184,7 +184,11 @@ def player_numbers(team_name)
    game_hash.each do |location, team_data|
      team_data.each do |attribute, data|
        if data.include?(player_name)
-         hash = game_hash[location][attribute][players]
+         hash = game_hash[location][attribute][player_name]
+       end 
+     end 
+   end 
+   hash
        
    
    
