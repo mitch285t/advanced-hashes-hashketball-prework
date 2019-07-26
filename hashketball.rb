@@ -241,7 +241,7 @@ def winning_team
     away_team = []
     game_hash.each do |location, team_data|
       game.hash[:home][:players].each do |attribute, data|
-        home_team.push
+        home_team.push(data[:points])
     
     
     
