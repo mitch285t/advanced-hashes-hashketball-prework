@@ -198,7 +198,8 @@ def player_numbers(team_name)
     shoe_data = []
     biggest_shoe = nil
     
-    
+    game_hash.each do |location, team_data|
+      
     
     
     
