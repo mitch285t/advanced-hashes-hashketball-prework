@@ -273,7 +273,9 @@ def winning_team
         team_data[:players].each do |name, stats|
           list_names.push(name)
           most_steals.push(stats[:steals])
-          
+        end 
+      end 
+      
       
     end
     
