@@ -153,7 +153,8 @@ def team_colors(name)
     def team_names
       team_array = [] 
       game_hash.each do |location, team_data|
-        
+        team_data.each do |attribute, value|
+          
       
       
     end 
