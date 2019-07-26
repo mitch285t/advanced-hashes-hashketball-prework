@@ -204,7 +204,7 @@ def player_numbers(team_name)
         biggest_shoe = shoe_data.sort[-1]
         data.collect do |category, stat|
           if category == :shoe 
-            
+            if stat == biggest_shoe
     
     
     
