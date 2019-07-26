@@ -242,6 +242,14 @@ def winning_team
     game_hash.each do |location, team_data|
       game.hash[:home][:players].each do |attribute, data|
         home_team.push(data[:points])
+      end 
+    end 
+    game_hash.each do |location, team_data|
+      game.hash{:away][:players].each do |attribute, data|
+        away_team.push(data[:points])
+      end 
+    end 
+    
     
     
     
