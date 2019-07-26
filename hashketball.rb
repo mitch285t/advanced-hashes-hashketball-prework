@@ -239,7 +239,8 @@ end
 def winning_team
     home_team = [] 
     away_team = []
-    
+    game_hash.each do |location, team_data|
+      
     
     
     
