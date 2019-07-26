@@ -264,6 +264,7 @@ def winning_team
         end 
       end 
       list.max_by(&:length)
+    end 
       
     end 
     
