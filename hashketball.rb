@@ -171,7 +171,7 @@ def player_numbers(team_name)
      team_data.each do |attribute, value|
        if attribute == :players
         value.each do |name, stats|
-          array.push(game_hash[]
+          array.push(game_hash[location][attribute][]
        end 
      end 
    end 
