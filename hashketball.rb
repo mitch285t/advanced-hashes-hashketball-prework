@@ -263,7 +263,7 @@ def winning_team
           list.push(name)
         end 
       end 
-      list.max_by
+      list.max_by(&length)
       
     end 
     
