@@ -170,7 +170,8 @@ def player_numbers(team_name)
    if game_hash[location].values.include?(team_name)
      team_data.each do |attribute, value|
        if attribute == :players
-        value.each do 
+        value.each do |name, stats|
+          
        end 
      end 
    end 
