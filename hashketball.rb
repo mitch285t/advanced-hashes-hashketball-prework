@@ -224,7 +224,7 @@ def player_numbers(team_name)
       data.collect do |category, stat|
         if category == :points 
           if stat == most_points
-            
+            return name 
     
     
     
