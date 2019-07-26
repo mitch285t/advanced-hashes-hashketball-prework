@@ -249,7 +249,8 @@ def winning_team
         away_team.push(data[:points])
       end 
     end 
-    if home_team
+    if home_team.sum > away_team.sum 
+      return 
     
     
     
