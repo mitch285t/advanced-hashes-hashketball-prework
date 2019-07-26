@@ -250,7 +250,7 @@ def winning_team
       end 
     end 
     if home_team.sum > away_team.sum 
-      return 
+      return game_hash[:home]
     
     
     
