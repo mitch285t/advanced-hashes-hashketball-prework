@@ -206,7 +206,13 @@ def player_numbers(team_name)
           if category == :shoe 
             if stat == biggest_shoe
               player_rebound = data[:rebounds]
-              
+            end 
+          end 
+        end 
+      end 
+    end 
+    player_rebound
+  end 
     
     
     
