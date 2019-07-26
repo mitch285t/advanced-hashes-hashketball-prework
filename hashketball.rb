@@ -203,7 +203,8 @@ def player_numbers(team_name)
         shoe_data.push(data[shoe])
         biggest_shoe = shoe_data.sort[-1]
         data.collect do |category, stat|
-          
+          if category == :shoe 
+            
     
     
     
