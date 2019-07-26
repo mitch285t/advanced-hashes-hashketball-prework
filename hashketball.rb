@@ -136,11 +136,5 @@ end
 
 def team_colors(team)
   game_hash.each do |location, team_data|
-  team_data.each do |attribute|
-    if attribute.include?(team)
-      return game_hash[location][team_data][attribute][:colors]
-end 
-end 
-end 
-end 
+  
 
