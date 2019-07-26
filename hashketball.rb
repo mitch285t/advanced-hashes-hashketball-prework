@@ -277,7 +277,7 @@ def winning_team
       end 
       game_hash.each do |location, team_data|
         team_data.each do |name, stats|
-          if name == list_names.max_by(&length)
+          if name == list_names.max_by(&:length)
       
     end
     
