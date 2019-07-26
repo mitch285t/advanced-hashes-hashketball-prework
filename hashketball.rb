@@ -267,6 +267,8 @@ def winning_team
     end 
       
     def long_name_steals_a_ton? 
+      list_names = [] 
+      most_steals = [] 
       
       
     end
